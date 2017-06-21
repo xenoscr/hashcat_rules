@@ -1,6 +1,6 @@
 # Rules based on observation of common
 
-# Append a number
+# Prepend a number
 ^1
 ^2
 ^3
@@ -12,7 +12,7 @@
 ^9
 ^0
 
-# Append two digit number
+# Prepend two digit number
 ^1 ^0
 ^1 ^1
 ^1 ^2
@@ -104,7 +104,7 @@
 ^9 ^8
 ^9 ^9
 
-# Append a special
+# Prepend a special
 ^ 
 ^!
 ^"
@@ -139,7 +139,7 @@
 ^}
 ^~
 
-# Append special and a digit
+# Prepend special and a digit
 ^  ^0
 ^  ^1
 ^  ^2
@@ -471,7 +471,7 @@
 ^~ ^8
 ^~ ^9
 
-# Append special and two digits
+# Prepend special and two digits
 ^  ^0 ^0
 ^  ^0 ^1
 ^  ^0 ^2
@@ -3773,7 +3773,7 @@
 ^~ ^9 ^8
 ^~ ^9 ^9
 
-# Append a digit and special
+# Prepend a digit and special
 ^0 ^ 
 ^0 ^!
 ^0 ^"
@@ -4105,7 +4105,7 @@
 ^9 ^}
 ^9 ^~
 
-# Append two digits and special
+# Prepend two digits and special
 ^0 ^0 ^ 
 ^0 ^0 ^!
 ^0 ^0 ^"
